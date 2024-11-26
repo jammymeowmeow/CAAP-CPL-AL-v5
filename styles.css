@@ -50,6 +50,7 @@ h1 {
     background-color: #e0e0e0;
     border-radius: 5px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 #progress-bar {
@@ -60,10 +61,20 @@ h1 {
     transition: width 0.3s ease;
 }
 
-#progress-text,
+#progress-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    color: #333;
+}
+
 #remaining-questions {
     font-size: 14px;
     color: #333;
+    margin-top: 10px;
+    
 }
 
 /* Question and Answer Styles */
