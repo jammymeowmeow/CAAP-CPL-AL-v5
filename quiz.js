@@ -123,7 +123,7 @@ const questions = [
     {
         question: "Unless authorized by the appropriate ATC authority, no pilot may operate in VFR flight:",
         choices: [
-            { text: "Above 200", correct: true },
+            { text: "Above FL200", correct: true },
             { text: "At transonic and supersonic speeds", correct: true },
             { text: "Below 1000 feet AGL", correct: false }
         ]
